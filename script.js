@@ -180,3 +180,64 @@ if (semana == 1) {
 }else {
     console.log("Dia Inválido");
 }
+
+let idadeDirigir = 19;
+let temCNH = true;
+let temCarro = false;
+
+if (idadeDirigir => 18 && temCNH == true && temCarro == true) {
+    console.log("Você Pode dirigir!")
+}else{
+    console.log("Você Não pode dirigir!")
+}
+
+let ehProfessor = false
+let ehAluno = false
+
+if (ehProfessor == true || ehAluno == true) {
+    console.log("Você tem direito a meia-entrada!")
+}else{
+    console.log("Você não tem direito a meia-entrada!")
+}
+
+//JavaScript — Exercícios de Condicionais COM && e ||
+
+//Parte 1 — Operador E (&&)
+
+//01 — Número dentro do intervalo
+//Receba um número
+let numero1 = 28;
+//informe se ele está entre 10 e 50
+if (numero1 > 10 && numero1 < 50){
+    console.log("O número está no intervalo de 10 e 50");
+}else{
+    // Caso contrário, informe que está fora do intervalo.
+    console.log("O número está fora o intervalo entre 10 e 50");
+}
+
+//02 — Elegibilidade para estágio
+let candidatos = 20;
+if (candidatos > 16 && candidatos < 24){
+    console.log("O candidato atende aos requisitos entre 16 e 24");
+}else{
+    console.log("O candidato não atende aos requisitos entre 16 e 24");
+}
+
+//Parte 2 — Operador OU (||)
+
+//03 — Frete grátis
+let valorCompra = 152;
+let ehAssinante = true;
+
+if(valorCompra >= 200 || ehAssinante == true){
+    // Informe se ele tem direito ao frete grátis.
+    console.log("Você tem direito a frete grátis!");
+}else{
+    console.log("Você não tem direito a frete grátis!");
+}
+
+//04 — Dia de descanso
+let Dia = "segunda";
+if (Dia === "sábado" || dia === "domingo"){
+    console.log("")
+}
